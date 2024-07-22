@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  background-color: #fffbf5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #272727;
+  font-size: 18px;
+  line-height: 1,5;
+}
+
+h1 {
+  color : #e85d04;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1,5;
+}
+
+h2 {
+  color: #f48c06;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1,5;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #3a86ff
+}
+
+a:hover{
+  color: #023e8a
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card{
+ background: white;
+ border: white solid;
+ border-radius: 4px;
+ box-shadow: 0 0 16px rgba(0,0,0,0.1);
+ padding: 30px;
+ margin: 20px 0px;
+ text-align: center;
+}
+
+.img-circle{
+  border-radius: 150px;
+}
+
+.list-inline > li {
+  font-size: 40px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue{
+  border-radius: 4px;
+  background: #3a86ff;
+  color: #fffbf5;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
